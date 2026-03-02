@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6f8;
+  margin: 0;
+  color: #222;
+}
+
+.container {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0 0 6px 0;
+}
+
+h2 {
+  /* This color gets overridden by the embedded <style> in index.html */
+  color: #1d4ed8;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 6px;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+a {
+  color: #2563eb;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Required reusable class used at least twice */
+.section-box {
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  margin-bottom: 14px;
+}
+
+.site-header {
+  background: #1f2937;
+  color: #ffffff;
+  padding: 18px 20px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+.tagline {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.profile-img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 12px 0;
+}
+
+.site-footer {
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  color: #6b7280;
+  font-size: 12px;
+}

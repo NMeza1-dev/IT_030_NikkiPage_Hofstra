@@ -47,11 +47,16 @@ a:hover {
 }
 
 .site-header {
-  background: #1f2937;
-  color: #ffffff;
-  padding: 18px 20px;
-  border-radius: 12px;
-  margin-bottom: 14px;
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(980px, calc(100% - 32px));
+  z-index: 1000;
+}
+
+.container {
+  padding-top: 140px; /* adjust based on header height + top offset */
 }
 
 .tagline {

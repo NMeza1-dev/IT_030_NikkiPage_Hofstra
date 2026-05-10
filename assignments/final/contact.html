@@ -21,35 +21,12 @@
   <header>
     <h1>Nikki Meza</h1>
 <nav>
- <a href="index.html"
-onclick="gtag('event', 'navigation_click', {
-  'link_name': 'Home'
-});">Home</a>
-
-<a href="about.html"
-onclick="gtag('event', 'navigation_click', {
-  'link_name': 'About'
-});">About</a>
-
-<a href="work.html"
-onclick="gtag('event', 'navigation_click', {
-  'link_name': 'Work'
-});">Work</a>
-
-<a href="interests.html"
-onclick="gtag('event', 'navigation_click', {
-  'link_name': 'Interests'
-});">Interests</a>
-
-<a href="blog.html"
-onclick="gtag('event', 'navigation_click', {
-  'link_name': 'Blog'
-});">Blog</a>
-
-<a href="contact.html"
-onclick="gtag('event', 'navigation_click', {
-  'link_name': 'Contact'
-});">Contact</a>
+  <a href="index.html" onclick="gtag('event', 'navigation_click', {'link_name': 'Home', 'event_callback': function(){window.location.href='index.html';}}); return false;">Home</a>
+  <a href="about.html" onclick="gtag('event', 'navigation_click', {'link_name': 'About', 'event_callback': function(){window.location.href='about.html';}}); return false;">About</a>
+  <a href="work.html" onclick="gtag('event', 'navigation_click', {'link_name': 'Work', 'event_callback': function(){window.location.href='work.html';}}); return false;">Work</a>
+  <a href="interests.html" onclick="gtag('event', 'navigation_click', {'link_name': 'Interests', 'event_callback': function(){window.location.href='interests.html';}}); return false;">Interests</a>
+  <a href="blog.html" onclick="gtag('event', 'navigation_click', {'link_name': 'Blog', 'event_callback': function(){window.location.href='blog.html';}}); return false;">Blog</a>
+  <a href="contact.html" onclick="gtag('event', 'navigation_click', {'link_name': 'Contact', 'event_callback': function(){window.location.href='contact.html';}}); return false;">Contact</a>
 </nav>
   </header>
 

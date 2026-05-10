@@ -30,18 +30,31 @@
 </nav>
   </header>
 
-  <main>
+ <main>
 
-    <section class="section-box">
-      <h2>Interactive Interest Filter</h2>
-      <p>This page uses JavaScript to organize my projects and interests by category. Choose a category from the dropdown menu to filter what appears on the page.</p>
+  <section class="section-box">
+    <h2>Interactive Interest Filter</h2>
+    <p>This page uses JavaScript to organize my projects and interests by category. Choose a category from the dropdown menu to filter what appears on the page.</p>
 
-      <label for="categoryFilter">Filter by category:</label>
-     <select id="categoryFilter" onchange="filterItems(this.value); gtag('event', 'interest_filter_used', {'selected_category': this.value});">
-  <option value="">All</option>
-  <option value="Technology">Technology</option>
-  <option value="Creative">Creative</option>
-  <option value="Research">Research</option>
-</select>
+    <label for="categoryFilter">Filter by category:</label>
+    <select id="categoryFilter" onchange="filterItems(this.value); gtag('event', 'interest_filter_used', {'selected_category': this.value});">
+      <option value="">All</option>
+      <option value="Technology">Technology</option>
+      <option value="Creative">Creative</option>
+      <option value="Research">Research</option>
+    </select>
+
+    <p id="result-count"></p>
+
+    <div id="items-container" class="filter-grid"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Nikki Meza</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
